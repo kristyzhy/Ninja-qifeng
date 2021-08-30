@@ -6,13 +6,9 @@ Ninja 仅支持 qinglong 2.9+
 ## 常用指令
 
 ```bash
-git clone https://github.com/QiFengg/ninja.git /ql/ninja
-cd /ql/ninja/backend
-git checkout
+docker exec -it qinglong bash
+cd /ql/Ninja-qifeng/bakcend && pnpm install && cp sendNotify.js /ql/scripts/sendNotify.js && pm2 start
 git pull
-pnpm install
-pm2 start
-cp sendNotify.js /ql/scripts/sendNotify.js
 ```
 
 ## 配置文件
