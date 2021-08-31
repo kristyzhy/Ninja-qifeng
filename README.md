@@ -8,7 +8,7 @@ Ninja 仅支持 qinglong 2.9+
 ```bash
 docker exec -it qinglong bash
 cd /ql && git clone https://github.com.cnpmjs.org/QiFengg/Ninja-qifeng.git
-cd /ql/Ninja-qifeng/bakcend
+cd /ql/Ninja-qifeng/backend
 pnpm install
 cp sendNotify.js /ql/scripts/sendNotify.js
 pm2 start
